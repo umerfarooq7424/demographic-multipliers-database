@@ -1,0 +1,1 @@
+SELECT * FROM demographics.`database sel_alltyp`;
