@@ -34,6 +34,8 @@ Interactive Python + MySQL scripts (credentials via environment variables — se
 - `query_by_year_built.py` — older vs. newer (2000–2021) housing comparisons
 - `state_summary.py` — state-level totals across all cuts
 
+Notebooks: `17_all_housing_units.ipynb` (queries + 90% CIs) and `DM_tables.ipynb` (the processing pipeline that builds the DM tables — population by age, SAC by grade — from the source workbooks). An early Streamlit + pydeck map app is in `app/streamlit_map_app.py`, and the project presentation *Multipliers and Municipalities* is in `docs/`.
+
 Plus `notebooks/17_all_housing_units.ipynb` — housing-unit queries with demographic multiplier extraction and 90% confidence intervals, and example SQL in `sql/`.
 
 ## How to run
